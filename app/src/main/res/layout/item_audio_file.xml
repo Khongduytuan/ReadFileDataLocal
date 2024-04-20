@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="#F0EBF6">
+    <!-- item_audio_file.xml -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textFileName"
+            android:text="File Ghi Âm"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textFileSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23Mb"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/textFileDate"
+            android:text="20-12-2023"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:padding="8dp"/>
+        <ImageView
+            android:id="@+id/imageDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_delete"
+            android:layout_gravity="center_vertical"
+            android:onClick="onDeleteIconClicked" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
